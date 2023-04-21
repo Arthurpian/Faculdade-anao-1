@@ -1,0 +1,72 @@
+body{   
+    /*Fazer degrader*/
+    background-image: linear-gradient(to right, aqua , black
+    );
+}
+
+.container{  /*Usamos . para definir uma class*/
+
+    width: 100% ; /* Largura*/
+    height: 800px;
+    margin:auto;
+}
+
+#menu{ /*Usamos # para definir um iD  a diferença de class e ID e porque o ID e especfico e class
+    é para ser algo geral*/
+
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+#menu ul li{
+
+    list-style: none; /*tira as bolinhas*/
+    display: inline; /*Um do lado do outro*/
+    padding: 4px; /*espasamento do menu*/
+}
+
+#menu ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;   /*Muda a cor da palavra*/
+    text-decoration: none; /*Tira o subliado da palavra*/
+}
+
+#menu ul li a:hover{ /*houver = usado para quando o mause passar encima fazer essas coisas*/
+    background-color: aqua;
+    color: black;
+    padding: 4px;
+}
+
+h1,h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; /*Negrito*/
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    color: bisque;
+    text-align: center;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 100px; /*Pula linha*/
+}
+
+#login{
+    width: 90px;
+    height: 60px;
+    background-color: bisque;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 47%; /*Tras o botao da esquerda para a diretia*/
+
+}

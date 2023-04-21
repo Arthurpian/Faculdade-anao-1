@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!--Para chamar o documento colocar link:href e depois colocar o nome do arquivo -->
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+    <!--Para chamar a div coloque div.container e vai chamar a div container div.(nome) -->
+    <div class="container">
+        
+        <nav id="menu"> <!--Parte de home contato mercado -->
+
+            <ul> <!--colocar bolinha -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programa.html">Programa</a></li>
+                <li><a href="login.html">Login</a></li>   
+            </ul>
+        </nav>
+        
+        <form> <!--Estrutura para formularios-->
+            <p>Usuário:<input type="text" id="usuario" required></p> <!--required obrigatorio o preenchimento-->
+            <p>Senha:<input type="password" id="senha" required></p>
+            <input type="submit" value="Emviar" id="login" onclick="validar()"/> <!--Criamos o validar que e um fuction-->
+        </form>
+
+
+    </div>
+
+    <footer>@2023-todos os direitos reservados</footer> <!--Rodape -->
+
+
+
+
+
+
+
+    <!--Para chamar na pasta pasta colocar script:src e depois colocar o nome do arquivo -->
+    <script src="script.js"></script>
+</body>
+</html>
