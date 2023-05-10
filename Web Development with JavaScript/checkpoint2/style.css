@@ -1,0 +1,109 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-size: arial;
+}
+
+
+body {
+    background: linear-gradient(to right , #fdfdfd , rgb(74, 0, 117));
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 14px;
+
+}
+
+.menu ul li a{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.produtos{
+    background: rgb(255, 255, 255);
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.produtos img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Nome{
+    margin-top: 10px;
+}
+
+.valor{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+button{
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    font-size: 25px; 
+    margin-left: 50px;
+}
+
+button a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex; /*Aqui eu falo que quero controlar o display*/
+    flex-direction: row;  /*Aqui eu falo que quero um do lado do outro*/
+    flex-wrap: wrap;  /*Aqui eu falo que quero que quando chegue no final da pagina ele quebre para a linha debaixo*/
+    justify-content: space-evenly;  /*Aqui eu falo que quero um mesmo espaçamento entre os*/
+}
+
+/*Pagina Inicial*/
+
+#Principal {
+
+
+  
+}
