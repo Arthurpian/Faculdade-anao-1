@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to left , rgb(89, 226, 226) , rgb(122, 122, 230));
+}
+#main{
+    width: 400px;
+    height: 200px;
+    margin-left: 35%;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    border: 3px solid white;
+    border-radius: 9px;
+    box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.308);
+}
+
+#ligar{
+    width: 100px;
+    height: 70px;
+    background: linear-gradient(to right, black , blue);
+    color: white;
+    margin-left: 40%;
+    margin-top: 20px;
+    border: 3px solid white;
+    border-radius: 9px;
+    box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.308);
+}
+
+#desligar{
+    width: 100px;
+    height: 70px;
+    background: linear-gradient(to right,blue ,black );
+    color: white;
+    border: 3px solid white;
+    margin-left: 5%;
+    border-radius: 9px;
+    box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.308);
+}
+
+button:hover{
+    background-color: orange;
+}
+
+span{
+    color: blue;
+}
