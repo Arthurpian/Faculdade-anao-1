@@ -1,0 +1,67 @@
+body{
+    background: #e4dacc;
+}
+
+form{
+    width: 400px;
+    height: 450px;
+    background: #002855b2;
+    float: left;
+
+}
+
+h1{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+form label{
+    margin-left: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+input,textarea{
+    width: 200px;
+    padding: 10px;
+    color: #000;
+    border-radius: 5px;
+}
+
+input:hover,textarea:hover{
+    border-color: blue;
+    box-shadow: 5px 0px 9px yellow;
+    font-weight: bold;
+}
+
+textarea{
+    width: 300px;
+    height: 120px;
+    line-height: 20px;
+    resize: none;
+    margin-left: 30px;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.submit:hover{
+    background-color: rgb(123, 123,209);
+    font-weight: bold;
+    color: white;
+}
+
+.maps{
+    width: 600px;
+    height: 600px;
+    margin-left: 40%;
+}
+
+.numeros{
+    display: flex;
+    justify-content: center;
+}
+
